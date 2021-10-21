@@ -76,7 +76,7 @@ body {
 }
 
 .banner{
-    height: 528px;
+    height: 600px;
     background: url("../images/fondo.jpg") fixed center/cover;
     display: flex;
     align-items: center;
@@ -103,7 +103,7 @@ body {
 
 .banner__h1{
     line-height: 1.5;
-    font-size: 3em;
+    font-size: 2em;
 }
 
 button {

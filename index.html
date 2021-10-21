@@ -12,9 +12,9 @@
 <body>
     <section class="banner">
         <div class="banner__info">
-            <h1 id="nombre" class="banner__h1">Estudiante</h1><br><br>
+            <p id="nombreUno" class="banner__h1">Grupos</p><br><br>
             <button id="boton"
-                onclick='document.getElementById("nombre").innerHTML = estudiantes(datos);'>Aleatorio</button>
+                onclick='document.getElementById("nombreUno").innerHTML = `${estudianteUno(datos)} - ${estudianteDos(datos)}`'>Aleatorio</button>
             <script src="js/aleatorio.js"></script>
         </div>
     </section>
